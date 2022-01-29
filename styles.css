@@ -55,8 +55,8 @@
 /* Style the profile picture */ 
 .avatar-small {
   vertical-align: middle;
-  width: 70px;
-  height: 70px;
+  width:40px;
+  height: 40px;
   border-radius: 50%;
 }
 
