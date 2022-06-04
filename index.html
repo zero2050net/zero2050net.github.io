@@ -1,12 +1,10 @@
-
-   
 <!DOCTYPE html>
 <html>
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Net zero 2050</title>
+  <title>zero2040.net</title>
       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,7 +39,7 @@
 
   .accordion:after {
   content: '▼';
-  color: #000000;
+  color: #00ff15;
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -49,6 +47,21 @@
 
 .active:after {
   content: "▲";
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #efffe5;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #efffe5;
 }
     
   </style>
@@ -66,7 +79,7 @@
 
 			<div class="profile-user-settings">
 
-				<h1 class="profile-user-name">zero2050.net</h1>
+				<h1 class="profile-user-name">zero2040.net</h1>
 
 				<button class="btn profile-edit-btn">by Zero Ecosystems Lab (ZEL)</button>
 
@@ -100,67 +113,263 @@
 
 </main>
 <body>
+<script>
+var names = ['こんにちは', '안녕하세요', 'hola', 'bonjour', 'hallo', '你好', 'أهلا', 'नमस्ते', 'שלום', 'olá'];
+
+setInterval(function() {
+  var rand = Math.floor(Math.random() * 10);
+  document.getElementById("name").innerHTML = names[rand];
+}, 1500);
+</script>
+
+<h2><div id="name">hello</div></h2> 
+<br>
+  <h2>We're making it easy to find Net Zero information.</h2>
+<br>
+  <h2>Search:</h2>
+<br>
+  <button class="accordion"><h1 id="Sectors">Sectors</h1></button>
+  <div class="panel">
+<table>
+  <tr>
+    <th>Sector</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="40" height="40"></span>Communications</td>
+    <td><a href="https://"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20"></span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="40" height="40"></span>Development</td>
+    <td><a href="https://"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20"></span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="40" height="40"></span>Energy</td>
+    <td><a href="https://"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20"></span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="40" height="40"></span>Entertainment</td>
+    <td><a href="https://"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20"></span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="40" height="40"></span>Finance</td>
+    <td><a href="https://"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20"></span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="40" height="40"></span>Food</td>
+    <td><a href="https://"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20"></span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="40" height="40"></span>Mobility</td>
+    <td><a href="https://"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20"></span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="40" height="40"></span>Retail</td>
+    <td><a href="https://"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20"></span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="40" height="40"></span>Sport</td>
+    <td><a href="https://"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20"></span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="40" height="40"></span>Technology</td>
+    <td><a href="https://"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20"></span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="40" height="40"></span>Water</td>
+    <td><a href="https://"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20"></span></a></td>
+  </tr>
+</table>
+  </div>
+<br>
+  <button class="accordion"><h1 id="Countries">Countries</h1></button>
+  <div class="panel">
+<table>
+  <tr>
+    <th>Country</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="flags/uy.png" alt="Uruguay flag" width="40" height="40"></span>Uruguay</td>
+    <td><a href="https://uy.zero2030.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">uy.zero2030.net</span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="flags/is.png" alt="Iceland flag" width="40" height="40"></span>Iceland</td>
+    <td><a href="https://is.zero2040.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">is.zero2040.net</span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="flags/ad.png" alt="Andorra flag" width="40" height="40"></span>Andorra</td>
+    <td><a href="https://ad.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">ad.zero2050.net</span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="flags/ao.png" alt="Angola flag" width="40" height="40"></span>Angola</td>
+    <td><a href="https://ao.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">ao.zero2050.net</span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="flags/ag.png" alt="Antigua and Barbuda flag" width="40" height="40"></span>Antigua and Barbuda</td>
+    <td><a href="https://ag.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">ag.zero2050.net</span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="flags/ar.png" alt="Argentina flag" width="40" height="40"></span>Argentina</td>
+    <td><a href="https://ar.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">ar.zero2050.net</span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="flags/am.png" alt="Armenia flag" width="40" height="40"></span>Armenia</td>
+    <td><a href="https://am.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">am.zero2050.net</span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="flags/bs.png" alt="Bahamas flag" width="40" height="40"></span>Bahamas</td>
+    <td><a href="https://bs.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">bs.zero2050.net</span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="flags/bd.png" alt="Bangladesh flag" width="40" height="40"></span>Bangladesh</td>
+    <td><a href="https://bd.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">bd.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/bb.png" alt="Barbados flag" width="40" height="40"></span>Barbados</td>
+<td><a href="https://bb.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">bb.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/bz.png" alt="Belize flag" width="40" height="40"></span>Belize</td>
+<td><a href="https://bz.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">bz.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/bj.png" alt="Benin flag" width="40" height="40"></span>Benin</td>
+<td><a href="https://bj.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">bj.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/br.png" alt="Brasil flag" width="40" height="40"></span>Brasil</td>
+<td><a href="https://br.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">br.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/bf.png" alt="Burkina Faso flag" width="40" height="40"></span>Burkina Faso</td>
+<td><a href="https://bf.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">bf.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/bi.png" alt="Burundi flag" width="40" height="40"></span>Burundi</td>
+<td><a href="https://bi.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">bi.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/cv.png" alt="Cabo Verde flag" width="40" height="40"></span>Cabo Verde</td>
+<td><a href="https://cv.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">cv.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/kh.png" alt="Cambodia flag" width="40" height="40"></span>Cambodia</td>
+<td><a href="https://kh.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">kh.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/ca.png" alt="Canada flag" width="40" height="40"></span>Canada</td>
+<td><a href="https://ca.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">ca.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/cf.png" alt="Central African Republic flag" width="40" height="40"></span>Central African Republic</td>
+<td><a href="https://cf.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">cf.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/td.png" alt="Chad flag" width="40" height="40"></span>Chad</td>
+<td><a href="https://td.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">td.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/cl.png" alt="Chile flag" width="40" height="40"></span>Chile</td>
+<td><a href="https://cl.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">cl.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/cn.png" alt="China flag" width="40" height="40"></span>China</td>
+<td><a href="https://cn.zero2060.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">cn.zero2060.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/co.png" alt="Colombia flag" width="40" height="40"></span>Colombia</td>
+<td><a href="https://co.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">co.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/km.png" alt="Comoros flag" width="40" height="40"></span>Comoros</td>
+<td><a href="https://km.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">km.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/cd.png" alt="République Démocratique du Congo flag" width="40" height="40"></span>République Démocratique du Congo</td>
+<td><a href="https://cd.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">cd.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/ck.png" alt="Cook Islands flag" width="40" height="40"></span>Cook Islands</td>
+<td><a href="https://ck.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">ck.zero2050.net</span></a></td>
+  </tr> 
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/cr.png" alt="Costa Rica flag" width="40" height="40"></span>Costa Rica</td>
+<td><a href="https://cr.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">cr.zero2050.net</span></a></td>
+  </tr> 
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/dj.png" alt="Djibouti flag" width="40" height="40"></span>Djibouti</td>
+<td><a href="https://dj.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">dj.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/dm.png" alt="Dominica flag" width="40" height="40"></span>Dominica</td>
+<td><a href="https://dm.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">dm.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/do.png" alt="República Dominicana flag" width="40" height="40"></span>República Dominicana</td>
+<td><a href="https://do.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">do.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/ec.png" alt="Ecuador flag" width="40" height="40"></span>Ecuador</td>
+<td><a href="https://ec.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">ec.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/eu.png" alt="European Union flag" width="40" height="40"></span>European Union</td>
+<td><a href="https://eu.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">eu.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/fj.png" alt="Fiji flag" width="40" height="40"></span>Fiji</td>
+<td><a href="https://fj.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">fj.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/gm.png" alt="Gambia flag" width="40" height="40"></span>Gambia</td>
+<td><a href="https://gm.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">gm.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/gd.png" alt="Grenada flag" width="40" height="40"></span>Grenada</td>
+<td><a href="https://gd.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">gd.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/gy.png" alt="Guyana flag" width="40" height="40"></span>Guyana</td>
+<td><a href="https://gy.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">gy.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/ht.png" alt="République d'Haïti flag" width="40" height="40"></span>République d'Haïti</td>
+<td><a href="https://ht.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">ht.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/in.png" alt="India flag" width="40" height="40"></span>India</td>
+<td><a href="https://in.zero2070.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">in.zero2070.net</span></a></td>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="flags/uae.png" alt="United Arab Emirates flag" width="40" height="40"></span>United Arab Emirates</td>
+    <td><a href="https://uae.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">uae.zero2050.net</span></a></td>
+  </tr>
+    <tr>
+<td><span class="profile-stat-count"><img src="flags/uk.png" alt="United Kingdom flag" width="40" height="40"></span>United Kingdom</td>
+    <td><a href="https://uk.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">uk.zero2050.net</span></a></td>
+  </tr>
+<tr>
+    <td><span class="profile-stat-count"><img src="flags/us.png" alt="United States of America flag" width="40" height="40"></span>United States of America</td>
+<td><a href="https://us.zero2050.net"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20">us.zero2050.net</span></a></td>
+  </tr>
+</table>
+  </div>
 <br>
 <br>
-<h1>Explore</h1>
-<br>
-<br>
-			<div class="profile-stats">
-				<ul>
-					<li><a href="https://ad.zero2050.net"><span class="profile-stat-count"><img src="ad.png" alt="Andorra flag" width="40" height="40"></span>Andorra</a></li>
-					<li><a href="https://ao.zero2050.net"><span class="profile-stat-count"><img src="ao.png" alt="Angola flag" width="40" height="40"></span>Angola</a></li>
-					<li><a href="https://ag.zero2050.net"><span class="profile-stat-count"><img src="ag.png" alt="Antigua and Barbuda flag" width="40" height="40"></span>Antigua and Barbuda</a></li>
-					<li><a href="https://ar.zero2050.net"><span class="profile-stat-count"><img src="ar.png" alt="Argentina flag" width="40" height="40"></span>Argentina</a></li>
-					<li><a href="https://am.zero2050.net"><span class="profile-stat-count"><img src="am.png" alt="Armenia flag" width="40" height="40"></span>Armenia</a></li>
-				</ul>
-				<ul>
-					<li><a href="https://bs.zero2050.net"><span class="profile-stat-count"><img src="bs.png" alt="Bahamas flag" width="40" height="40"></span>Bahamas</a></li>
-					<li><a href="https://bd.zero2050.net"><span class="profile-stat-count"><img src="bd.png" alt="Bangladesh flag" width="40" height="40"></span>Bangladesh</a></li>
-					<li><a href="https://bb.zero2050.net"><span class="profile-stat-count"><img src="bb.png" alt="Barbados flag" width="40" height="40"></span>Barbados</a></li>
-					<li><a href="https://bz.zero2050.net"><span class="profile-stat-count"><img src="bz.png" alt="Belize flag" width="40" height="40"></span>Belize</a></li>
-					<li><a href="https://bj.zero2050.net"><span class="profile-stat-count"><img src="bj.png" alt="Benin flag" width="40" height="40"></span>Benin</a></li>
-				</ul>
-				<ul>
-					<li><a href="https://br.zero2050.net"><span class="profile-stat-count"><img src="br.png" alt="Brasil flag" width="40" height="40"></span>Brasil</a></li>
-					<li><a href="https://bf.zero2050.net"><span class="profile-stat-count"><img src="bf.png" alt="Burkina Faso flag" width="40" height="40"></span>Burkina Faso</a></li>
-					<li><a href="https://bi.zero2050.net"><span class="profile-stat-count"><img src="bi.png" alt="Burundi flag" width="40" height="40"></span>Burundi</a></li>
-					<li><a href="https://cv.zero2050.net"><span class="profile-stat-count"><img src="cv.png" alt="Cabo Verde flag" width="40" height="40"></span>Cabo Verde</a></li>
-					<li><a href="https://kh.zero2050.net"><span class="profile-stat-count"><img src="kh.png" alt="Cambodia flag" width="40" height="40"></span>Cambodia</a></li>
-				</ul>
-				<ul>
-					<li><a href="https://ca.zero2050.net"><span class="profile-stat-count"><img src="ca.png" alt="Canada flag" width="40" height="40"></span>Canada</a></li>
-					<li><a href="https://cf.zero2050.net"><span class="profile-stat-count"><img src="cf.png" alt="Central African Republic flag" width="40" height="40"></span>Central African Republic</a></li>
-					<li><a href="https://td.zero2050.net"><span class="profile-stat-count"><img src="td.png" alt="Chad flag" width="40" height="40"></span>Chad</a></li>
-					<li><a href="https://cl.zero2050.net"><span class="profile-stat-count"><img src="cl.png" alt="Chile flag" width="40" height="40"></span>Chile</a></li>
-					<li><a href="https://cn.zero2060.net"><span class="profile-stat-count"><img src="cn.png" alt="China flag" width="40" height="40"></span>China</a></li>
-				</ul>
-				<ul>
-					<li><a href="https://co.zero2050.net"><span class="profile-stat-count"><img src="co.png" alt="Colombia flag" width="40" height="40"></span>Colombia</a></li>
-					<li><a href="https://km.zero2050.net"><span class="profile-stat-count"><img src="km.png" alt="Comoros flag" width="40" height="40"></span>Comoros</a></li>
-					<li><a href="https://cd.zero2050.net"><span class="profile-stat-count"><img src="cd.png" alt="République Démocratique du Congo flag" width="40" height="40"></span>République Démocratique du Congo</a></li>
-					<li><a href="https://ck.zero2050.net"><span class="profile-stat-count"><img src="ck.png" alt="Cook Islands flag" width="40" height="40"></span>Cook Islands</a></li>
-					<li><a href="https://cr.zero2050.net"><span class="profile-stat-count"><img src="cr.png" alt="Costa Rica flag" width="40" height="40"></span>Costa Rica</a></li>
-				</ul>
-				<ul>
-					<li><a href="https://dj.zero2050.net"><span class="profile-stat-count"><img src="dj.png" alt="Djibouti flag" width="40" height="40"></span>Djibouti</a></li>
-					<li><a href="https://dm.zero2050.net"><span class="profile-stat-count"><img src="dm.png" alt="Dominica flag" width="40" height="40"></span>Dominica</a></li>
-					<li><a href="https://do.zero2050.net"><span class="profile-stat-count"><img src="do.png" alt="República Dominicana flag" width="40" height="40"></span>República Dominicana</a></li>
-					<li><a href="https://ec.zero2050.net"><span class="profile-stat-count"><img src="ec.png" alt="Ecuador flag" width="40" height="40"></span>Ecuador</a></li>
-					<li><a href="https://fj.zero2050.net"><span class="profile-stat-count"><img src="fj.png" alt="Fiji flag" width="40" height="40"></span>Fiji</a></li>
-				</ul>
-				<ul>
-					<li><a href="https://gm.zero2050.net"><span class="profile-stat-count"><img src="gm.png" alt="Gambia flag" width="40" height="40"></span>Gambia</a></li>
-					<li><a href="https://gd.zero2050.net"><span class="profile-stat-count"><img src="gd.png" alt="Grenada flag" width="40" height="40"></span>Grenada</a></li>
-					<li><a href="https://gy.zero2050.net"><span class="profile-stat-count"><img src="gy.png" alt="Guyana flag" width="40" height="40"></span>Guyana</a></li>
-					<li><a href="https://ht.zero2050.net"><span class="profile-stat-count"><img src="ht.png" alt="République d'Haïti flag" width="40" height="40"></span>République d'Haïti</a></li>
-					<li><a href="https://in.zero2070.net"><span class="profile-stat-count"><img src="in.png" alt="India flag" width="40" height="40"></span>India</a></li>
-				</ul>
-				<ul>
-					<li><a href="https://uae.zero2050.net"><span class="profile-stat-count"><img src="uae.png" alt="United Arab Emirates flag" width="40" height="40"></span>United Arab Emirates</a></li>
-					<li><a href="https://uk.zero2050.net"><span class="profile-stat-count"><img src="uk.png" alt="United Kingdom flag" width="40" height="40"></span>United Kingdom</a></li>
-					<li><a href="https://us.zero2050.net"><span class="profile-stat-count"><img src="us.png" alt="United States flag" width="40" height="40"></span>United States of America</a></li>
-				</ul>
-			</div>
+  <button class="accordion"><h1 id="Companies">Companies</h1></button>
+  <div class="panel">
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td><span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="40" height="40"></span>Zero Ecosystems Lab</td>
+    <td><a href="https://"<span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="20" height="20"></span></a></td>
+  </tr>
+</table>
+  </div>
 <br>
 <br>
 <br>
@@ -168,84 +377,15 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+    <h2>We're Open</h2>
 <br>
 <div id="banner">
-    <h2>Do you influence positive change?</h2><a href="mailto:zeroecosystemslab@icloud.com" id="download"><h2>Click here</h2></a>
-  <h2>Have you got a story about sustainability that you want to pitch to us? Or a project that you think we need to know about? Well then, we want to hear from you. Submit your ideas to feature here!</h2>
+    <h2>Join us in our GitHub repository where we discuss changes to be made, suggestions, and bugs to be fixed.</h2>
+  <a href="https://github.com/zero2050net" id="download"><h2>GitHub</h2></a>
+  <h2>Additionally, follow and message us on social media to begin connecting with the rest of the community!</h2>
 </div>
 <br>
-<br>
-<h1>Help</h1>
-<br>
-<br>
-<p2>Make Net zero accessible.</p2>
-<br>
-<br>
-  <button class="accordion"><h1 id="WhatIsNetZero">What is Net zero?</h1></button>
-  <div class="panel">
-  <p2>Net zero refers to a state in which the greenhouse gases going into the atmosphere are balanced by removal out of the atmosphere.</p2>
-<br>
-<br>
-  <p2>The term Net zero is important because – for CO2 at least – this is the state at which global warming stops. The Paris Agreement underlines the need for Net zero, requiring states to ‘achieve a balance between anthropogenic emissions by sources and removals by sinks of greenhouse gases in the second half of this century’.</p2>
-  </div>
-<br>
-  <button class="accordion"><h1 id="WhyNetZero">Why Net zero?</h1></button>
-  <div class="panel">
-  <p2>Net zero is the internationally agreed upon goal for mitigating global warming in the second half of the century, and the IPCC concluded the need for Net zero CO2 by 2050 to remain consistent with 1.5C – the purpose of this site is to inform effective climate action that is Net zero aligned in order to advance progress towards this goal.</p2>
-  <p2></p2>
-  </div>
-<br>
-  <button class="accordion"><h1 id="HowNetZero">How do we get to Net zero?</h1></button>
-  <div class="panel">
-  <p2>Many actors will be able to achieve absolute zero or zero emissions in the process of reaching Net zero. Others will need to scale up removals either themselves directly or by supporting other project, hence the ‘Net’ in Net zero.</p2>
-  <p2></p2>
-  </div>
-<br>
-<br>
-<div id="banner">
-    <h2>Are you a company?</h2><a href="mailto:zeroecosystemslab@icloud.com" id="download"><h2>Request more info</h2></a>
-  <h2>Communicate environmental progress with your own sub-domain and fund climate resilient development!</h2>
-</div>
+    <h2>Building value for Net Zero together.</h2>
 <br>
 <br>
 <br>
@@ -272,7 +412,7 @@ for (i = 0; i < acc.length; i++) {
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 1, 2050 00:00:00").getTime();
+var countDownDate = new Date("Jan 1, 2040 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -301,19 +441,18 @@ var x = setInterval(function() {
 }, 1000);
 </script>
   <br>
+  <br>
   <script src="script.js"></script>
 </body>
   </div>
+  
 <br>
+<h1><center><a href="mailto:zeroecosystemslab@icloud.com">Contact Us</a></center></h1>
 <br>
-<br>
-<br>
-<br>
-<h1 style="text-align:right;"><a href="mailto:zeroecosystemslab@icloud.com">Contact Us</a></h1>
 <br>
 <br>
  <div class="footer">
- <figcaption> Zero Ecosystem is a not for profit company limited by guarantee (Company No. 13349586) registered in England, United Kingdom </figcaption>
+ <p1> Zero Ecosystem is a not for profit company limited by guarantee (Company No. 13349586) registered in England, United Kingdom </p1>
 </div>
 
 </html>
